@@ -15,3 +15,16 @@ This gem will turn off the Rails asset pipeline log. It surpresses unnesscasry m
 -Rails Panel
 
 Rails Panel is a chrome extension for Rails development. It will display information about your Rails app requests in the chrome developer tools panel.
+
+- Awesome Print
+
+Pretty prints your Ruby objects in full color and supports proper indentation.
+
+- Pry Rails
+
+Will open the pry gem inside the rails console.
+
+- Binding of caller
+
+Allows us to utilize the Binding#of_caller method. Using binding_of_caller we can grab bindings from higher up the call stack and evaluate code in that context. Allows access to bindings arbitrarily far up the call stack, not limited to just the immediate caller.
+
