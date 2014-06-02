@@ -20,7 +20,7 @@ group :development do
 end
 
 group :development do
-  gem 'meta_request' # https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg
+  gem 'meta_request' 
 end
 
 group :development do
