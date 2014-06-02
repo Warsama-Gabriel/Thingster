@@ -7,3 +7,11 @@ Gems required for Golp
 - Better Errors
 
 Better Errors replaces the standard rails error page but with more information and a full stack tracing compatibility.
+
+- Quiet Assets
+
+This gem will turn off the Rails asset pipeline log. It surpresses unnesscasry messages in your development log.
+
+-Rails Panel
+
+Rails Panel is a chrome extension for Rails development. It will display information about your Rails app requests in the chrome developer tools panel.

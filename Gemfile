@@ -14,20 +14,16 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby |
 
+gem 'pg'
+
 group :development do
-  gem 'quiet_assets'
   gem 'better_errors'
-end
-
-group :development do
-  gem 'meta_request' 
-end
-
-group :development do
+  gem 'quiet_assets'
+  gem 'meta_request'
   gem 'binding_of_caller'
   gem 'awesome_print'
   gem 'pry-rails'
-  gem 'pry-byebug'
+  gem 'pry-byebug' 
 end
 
 group :development, :test do
