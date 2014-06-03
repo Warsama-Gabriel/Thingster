@@ -24,13 +24,13 @@ group :development do
   gem 'meta_request'
   gem 'binding_of_caller'
   gem 'awesome_print'
-  gem 'pry-rails'
   gem 'pry-byebug' 
 end
 
 group :development, :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
+  gem 'pry-rails'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
