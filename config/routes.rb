@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   root 'pages#index'
-  get 'pages/helloworld', as: 'helloworld'
+  get '/helloworld', to: 'pages#helloworld', as: 'helloworld'
 
  
 end

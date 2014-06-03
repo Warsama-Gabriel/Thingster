@@ -1,5 +1,4 @@
 
-
 GOLP Application 
 
 Gems required for Golp
@@ -35,4 +34,15 @@ Gems required for Golp
 * binding_of_caller we can grab bindings from higher up the call stack
 * and evaluate code in that context. Allows access to bindings
 * arbitrarily far up the call stack, not limited to just the immediate * caller.
+
+- Capybara
+
+Capybara is an integration testing tool for rack based web applications. It simulates how a user would interact with a website
+
+- Bootstrap
+
+Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass.
+Generates files that are ready to be integrated into our Rails app.
+
+- In this lesson I learned how to integrate the bootstrap generator gem into my app and how to add changes to the style and layout of my bootstrap application.
 

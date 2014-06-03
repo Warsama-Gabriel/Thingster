@@ -1,4 +1,4 @@
-requre 'spec_helper'
+require 'spec_helper'
 
 feature 'Nav Bar' do
   scenario 'links to Hello World' do
