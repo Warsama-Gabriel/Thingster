@@ -15,8 +15,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby |
 gem 'pg'
 
-gem 'capybara', '~> 2.3.0'
-
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
@@ -28,7 +26,8 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.99'
+  gem 'capybara'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
