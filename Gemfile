@@ -15,12 +15,14 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby |
 gem 'pg'
 
+gem 'devise'
+
 gem 'bootstrap-sass'
 gem 'bootstrap-generators', '~> 3.1.1'
 
 
 group :development do
-  gem 'better_errors'
+  # gem 'better_errors'
   gem 'quiet_assets'
   gem 'meta_request'
   gem 'binding_of_caller'
