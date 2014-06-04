@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+100.times do 
+  Thing.find_or_create_by(name: Forgery(:basic).password, description: Forgery(:lorem_ipsum).words(10))
+end

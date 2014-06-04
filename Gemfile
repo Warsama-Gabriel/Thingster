@@ -18,6 +18,7 @@ gem 'pg'
 gem 'bootstrap-sass'
 gem 'bootstrap-generators', '~> 3.1.1'
 
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
@@ -31,6 +32,8 @@ group :development, :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
   gem 'pry-rails'
+  gem 'factory_girl_rails'
+  gem 'forgery', '0.6.0'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
