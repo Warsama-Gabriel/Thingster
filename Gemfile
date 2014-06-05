@@ -15,22 +15,27 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby |
 gem 'pg'
 
+gem 'devise'
+
 gem 'bootstrap-sass'
 gem 'bootstrap-generators', '~> 3.1.1'
 
+
 group :development do
-  gem 'better_errors'
+  # gem 'better_errors'
   gem 'quiet_assets'
   gem 'meta_request'
   gem 'binding_of_caller'
   gem 'awesome_print'
-  gem 'pry-rails'
   gem 'pry-byebug' 
 end
 
 group :development, :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
+  gem 'pry-rails'
+  gem 'factory_girl_rails'
+  gem 'forgery', '0.6.0'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
