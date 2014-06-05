@@ -13,21 +13,18 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby |
+gem 'pg'
+
+gem 'capybara', '~> 2.3.0'
 
 group :development do
-  gem 'quiet_assets'
   gem 'better_errors'
-end
-
-group :development do
-  gem 'meta_request' # https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg
-end
-
-group :development do
+  gem 'quiet_assets'
+  gem 'meta_request'
   gem 'binding_of_caller'
   gem 'awesome_print'
   gem 'pry-rails'
-  gem 'pry-byebug'
+  gem 'pry-byebug' 
 end
 
 group :development, :test do
