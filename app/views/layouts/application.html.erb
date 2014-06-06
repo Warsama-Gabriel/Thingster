@@ -32,7 +32,8 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="/">Home</a></li>
           <li><%= link_to 'Hello World', helloworld_path %></li>
-          <li><%= link_to 'Thing', things_path %></li>
+          <li><%= link_to 'My Things', mythings_path %></li>
+          <li><%= link_to 'All The Things', things_path %></li>
           <% if user_signed_in? %>
             <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
           <% else %>

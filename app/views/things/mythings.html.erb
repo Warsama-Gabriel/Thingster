@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h1>Listing My things </h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= render @things %> <!--for every thing in things render partial in thing, depends on partial with the same name -->
+    </tbody>
+  </table>
+</div>
