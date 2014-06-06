@@ -28,13 +28,14 @@ Rails.application.routes.draw do
 #                          PUT    /things/:id(.:format)          things#update
 #                          DELETE /things/:id(.:format)          things#destroy
 #               helloworld GET    /helloworld(.:format)          pages#helloworld
+                  # mythings GET    /mythings(.:format)            things#mythings
 
   
   root to: 'pages#helloworld'
   
   resources :things
 
- 
+  get '/mythings', to: 'things#mythings', as: 'mythings'
   get '/helloworld', to: 'pages#helloworld', as: 'helloworld'
 
 end
