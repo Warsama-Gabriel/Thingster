@@ -13,25 +13,29 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby |
+gem 'pg'
+
+gem 'devise'
+
+gem 'bootstrap-sass'
+gem 'bootstrap-generators', '~> 3.1.1'
+
 
 group :development do
+  # gem 'better_errors'
   gem 'quiet_assets'
-  gem 'better_errors'
-end
-
-group :development do
-  gem 'meta_request' # https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg
-end
-
-group :development do
+  gem 'meta_request'
   gem 'binding_of_caller'
   gem 'awesome_print'
-  gem 'pry-rails'
-  gem 'pry-byebug'
+  gem 'pry-byebug' 
 end
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.99'
+  gem 'capybara'
+  gem 'pry-rails'
+  gem 'factory_girl_rails'
+  gem 'forgery', '0.6.0'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
