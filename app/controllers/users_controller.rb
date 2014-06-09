@@ -1,8 +1,9 @@
 class UsersController < ApplicationController
 
   def index
-    if user_signed_in?
-      redirect_to :controller => 'pages', :action => 'helloworld'
-    end
+    @users = User.all
+    # if user_signed_in?
+    #   redirect_to :controller => 'pages', :action => 'helloworld'
   end
+
 end
