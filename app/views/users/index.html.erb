@@ -1,0 +1,21 @@
+
+<h1>Listing all Thingsters!</h1>
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tbody>
+        <tr>
+          <% @users.each do |user| %>
+            <tr>
+              <td><%= image_tag avatar_url(user)%></td>
+            </tr>
+            <tr>
+              <td><%= user.email %></td>
+            </tr>
+          <% end %>
+        <tr>
+      </tbody>
+    </thead>
+  </table>
+</div>
